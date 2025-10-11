@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Batería Recargable Xbox + USB‑C",
+    "price": 19990,
+    "category": "Accesorios",
+    "description": "Batería oficial para control Xbox con cable USB‑C.",
+    "image": "/img/accesorio-xbox-series_20.webp"
+  },
+  {
+    "name": "Audífonos Gamer Inalámbricos",
+    "price": 29990,
+    "category": "Accesorios",
+    "description": "Stereo, livianos y con micrófono. Ideal para PS5/Switch/PC.",
+    "image": "/img/audifonos-gamer-inalambricos.png"
+  },
+  {
+    "name": "Resident Evil Revelations Collection",
+    "price": 34999,
+    "category": "Switch",
+    "description": "Terror y acción en Nintendo Switch.",
+    "image": "/img/nintendo1.jpg"
+  },
+  {
+    "name": "Rayman Legends Definitive Edition",
+    "price": 34999,
+    "category": "Switch",
+    "description": "Plataformas cooperativo, versión definitiva.",
+    "image": "/img/nintendo2.jpg"
+  },
+  {
+    "name": "Donkey Kong Country Returns HD",
+    "price": 34999,
+    "category": "Switch",
+    "description": "Clásico de plataformas en HD.",
+    "image": "/img/nintendo3.jpg"
+  },
+  {
+    "name": "Minecraft (Switch)",
+    "price": 34999,
+    "category": "Switch",
+    "description": "Crea, explora y sobrevive.",
+    "image": "/img/nintendo4.png"
+  },
+  {
+    "name": "Just Dance 2025 (Switch)",
+    "price": 34999,
+    "category": "Switch",
+    "description": "Baila con los últimos hits.",
+    "image": "/img/nintendo5.jpg"
+  },
+  {
+    "name": "Dragon Ball FighterZ (Switch)",
+    "price": 34999,
+    "category": "Switch",
+    "description": "Peleas espectaculares estilo anime.",
+    "image": "/img/nintendo6.jpg"
+  },
+  {
+    "name": "Luigi's Mansion 3 (Switch)",
+    "price": 34999,
+    "category": "Switch",
+    "description": "Aventura fantasmagórica con Luigi.",
+    "image": "/img/nintendo7.jpg"
+  },
+  {
+    "name": "Estuche Nintendo Switch PokéBall",
+    "price": 24990,
+    "category": "Accesorios",
+    "description": "Estuche rígido para tu consola.",
+    "image": "/img/nintendo-accesorio-1.jpg"
+  },
+  {
+    "name": "Control Pro Nintendo Switch Zelda: TotK",
+    "price": 84990,
+    "category": "Accesorios",
+    "description": "Edición especial Tears of the Kingdom.",
+    "image": "/img/nintendo-accesorio-2.jpg"
+  },
+  {
+    "name": "Control PS5 The Last of Us (edición fan)",
+    "price": 29990,
+    "category": "Accesorios",
+    "description": "Control estilo DualSense edición temática.",
+    "image": "/img/play5-accesorio-1.jpg"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 3 (PS5)",
+    "price": 64999,
+    "category": "PS5",
+    "description": "Clásico del skate, versión moderna.",
+    "image": "/img/play5-1.png"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 4 (PS5)",
+    "price": 64999,
+    "category": "PS5",
+    "description": "Más trucos y mejores parques.",
+    "image": "/img/play5-2.jpg"
+  },
+  {
+    "name": "God of War Ragnarök (PS5)",
+    "price": 64999,
+    "category": "PS5",
+    "description": "Aventura épica nórdica.",
+    "image": "/img/play5-3.jpg"
+  },
+  {
+    "name": "UFC 5 (PS5)",
+    "price": 64999,
+    "category": "PS5",
+    "description": "El octágono te espera.",
+    "image": "/img/play5-4.jpg"
+  },
+  {
+    "name": "EA Sports FC 24 (PS5)",
+    "price": 64999,
+    "category": "PS5",
+    "description": "Fútbol de nueva generación.",
+    "image": "/img/play5-5.jpg"
+  },
+  {
+    "name": "Sonic Superstars (PS5)",
+    "price": 64999,
+    "category": "PS5",
+    "description": "Velocidad clásica con un giro moderno.",
+    "image": "/img/play5-6.jpg"
+  },
+  {
+    "name": "Call of Duty Modern Warfare",
+    "price": 64999,
+    "category": "PS5",
+    "description": "Lo más realista en acción bélica.",
+    "image": "/img/play5-7.jpg"
+  },
+  {
+    "name": "Control PS5 Inalámbrico",
+    "price": 29990,
+    "category": "Accesorios",
+    "description": "Control inalámbrico para PS5.",
+    "image": "/img/play5-accesorio-1.jpg"
+  },
+  {
+    "name": "Control PS5 (versión 2)",
+    "price": 29990,
+    "category": "Accesorios",
+    "description": "Otra variante de control PS5.",
+    "image": "/img/play5-accesorio-2.avif"
+  }
+]
