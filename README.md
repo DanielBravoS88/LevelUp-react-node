@@ -165,3 +165,34 @@ Limitaciones y recomendaciones:
 - Si muevo las imágenes a `client/public/img`, actualizaré automáticamente las rutas en `server/products.json`.
 
 ¿Quieres que mueva las imágenes a `client/public/img` y actualice las rutas en `products.json` ahora? Puedo hacerlo y probar el build localmente.
+
+## Nota sobre un error frecuente en Vercel: "Permission denied" al correr Vite
+
+Si en el log de Vercel ves un error similar a:
+
+```
+sh: line 1: /vercel/path0/client/node_modules/.bin/vite: Permission denied
+Error: Command "npm run build" exited with 126
+```
+
+Prueba cambiar en la configuración de Vercel el comando de build a una forma que ejecute npm desde la carpeta `client` sin depender de los `builds` en `vercel.json`. Recomendación de comando:
+
+- Install Command: npm ci --prefix client
+- Build Command: npm run build --prefix client
+- Output Directory: client/dist
+
+Si el error persiste, otra alternativa es forzar el uso de npx al build:
+
+```bash
+npx --yes vite build --cwd client
+```
+
+O, como workaround inmediato, corre localmente en tu máquina:
+
+```powershell
+cd client
+npm ci
+npm run build
+```
+
+Luego empuja los cambios y vuelve a desplegar en Vercel. Si necesitas, puedo cambiar los settings por ti (con Vercel CLI) y redeployar.

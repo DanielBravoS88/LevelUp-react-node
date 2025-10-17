@@ -4,9 +4,15 @@ import { moneyCLP } from '../utils/currency.js'
 export default function ProductCard({ p, onAdd, admin=false, onUpdated }){
   return (
     <article className="card" data-cat={p.category}>
-      <div className="media">
+      <div className="media media--cover">
         <span className="tag">{p.category}</span>
-        <img src={p.image} alt={p.name} loading="lazy" />
+        <img
+          className="card-img"
+          src={p.image}
+          alt={p.name}
+          loading="lazy"
+          onError={(e)=>{ e.currentTarget.onerror = null; e.currentTarget.src = '/img/pagos_tarjetas.png' }}
+        />
       </div>
       <div className="body">
         <h3 className="title">{p.name}</h3>
